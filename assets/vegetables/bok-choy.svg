@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bokStem" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#DCEDC8"/>
+    </linearGradient>
+    <radialGradient id="bokLeaf" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="60%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </radialGradient>
+    <filter id="bokShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#08210A" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#bokShadow)">
+    <!-- Flared Emerald Spoon Leaves -->
+    <path d="M180,240 C110,180 90,110 130,60 C180,10 250,50 260,140 C270,210 230,270 180,240 Z" fill="url(#bokLeaf)"/>
+    <path d="M420,240 C490,180 510,110 470,60 C420,10 350,50 340,140 C330,210 370,270 420,240 Z" fill="url(#bokLeaf)"/>
+    
+    <!-- Central Towering Leaf -->
+    <path d="M300,260 C230,190 220,90 270,40 C310,0 360,20 370,90 C380,180 340,240 300,260 Z" fill="url(#bokLeaf)"/>
+
+    <!-- Succulent White Base Stems (Spoon Shape) -->
+    <path d="M210,480 C180,380 190,280 230,210 L270,230 C240,290 240,390 260,490 Z" fill="url(#bokStem)"/>
+    <path d="M390,480 C420,380 410,280 370,210 L330,230 C360,290 360,390 340,490 Z" fill="url(#bokStem)"/>
+
+    <!-- Center Plump Bulb Base -->
+    <path d="M300,530 C220,530 200,430 220,320 C240,240 280,210 300,210 C320,210 360,240 380,320 C400,430 380,530 300,530 Z" fill="url(#bokStem)"/>
+    
+    <!-- Delicate Green Tint Rib Lines -->
+    <path d="M300,520 L300,240" stroke="#C5E1A5" stroke-width="6" stroke-linecap="round"/>
+    <path d="M260,480 Q250,380 260,280" stroke="#C5E1A5" stroke-width="4" stroke-linecap="round"/>
+    <path d="M340,480 Q350,380 340,280" stroke="#C5E1A5" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Morning Dew Drops -->
+    <circle cx="285" cy="120" r="7" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="330" cy="150" r="6" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="300" cy="380" r="8" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+</svg>

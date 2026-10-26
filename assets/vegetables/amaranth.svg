@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="amaranthCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E91E63"/>
+      <stop offset="50%" stop-color="#AD1457"/>
+      <stop offset="75%" stop-color="#4A148C"/>
+      <stop offset="90%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </radialGradient>
+    <linearGradient id="redStem" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C2185B"/>
+      <stop offset="60%" stop-color="#880E4F"/>
+      <stop offset="100%" stop-color="#4A148C"/>
+    </linearGradient>
+    <filter id="amaranthShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1E0514" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#amaranthShadow)">
+    <!-- Red Succulent Stem -->
+    <path d="M290,550 Q305,420 300,280 L315,280 Q310,420 310,550 Z" fill="url(#redStem)"/>
+    
+    <!-- Outer Leaf 1 (Left Lower) -->
+    <path d="M280,380 C180,380 120,310 120,230 C120,160 190,140 240,180 C280,210 290,290 280,380 Z" fill="url(#amaranthCenter)"/>
+
+    <!-- Outer Leaf 2 (Right Lower) -->
+    <path d="M320,380 C420,380 480,310 480,230 C480,160 410,140 360,180 C320,210 310,290 320,380 Z" fill="url(#amaranthCenter)"/>
+
+    <!-- Top Crown Leaf (Striking Red Heart) -->
+    <path d="M300,300 C210,240 190,130 250,70 C290,30 330,40 360,80 C410,140 380,230 300,300 Z" fill="url(#amaranthCenter)"/>
+
+    <!-- Vivid Magenta Vein Pattern -->
+    <path d="M295,290 L295,80" stroke="#FF4081" stroke-width="5" stroke-linecap="round"/>
+    <path d="M295,190 Q240,160 210,120" stroke="#FF4081" stroke-width="3" stroke-linecap="round"/>
+    <path d="M295,190 Q350,160 370,120" stroke="#FF4081" stroke-width="3" stroke-linecap="round"/>
+    <path d="M280,310 Q200,270 150,220" stroke="#FF4081" stroke-width="3" stroke-linecap="round"/>
+    <path d="M320,310 Q400,270 450,220" stroke="#FF4081" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Glistening Dew Drops -->
+    <circle cx="280" cy="140" r="7" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="210" cy="220" r="6" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="390" cy="220" r="6" fill="#FFFFFF" opacity="0.85"/>
+  </g>
+</svg>

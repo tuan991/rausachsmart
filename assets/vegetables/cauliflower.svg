@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="curdGrad" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1F8E9"/>
+      <stop offset="90%" stop-color="#DCEDC8"/>
+      <stop offset="100%" stop-color="#C5E1A5"/>
+    </radialGradient>
+    <linearGradient id="cauliLeaf" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1B5E20"/>
+      <stop offset="50%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <filter id="cauliShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#071E0B" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#cauliShadow)">
+    <!-- Outer Shielding Green Leaves -->
+    <path d="M300,530 C150,520 80,410 70,300 C60,200 120,130 150,110 C180,160 210,320 250,420 Z" fill="url(#cauliLeaf)"/>
+    <path d="M300,530 C450,520 520,410 530,300 C540,200 480,130 450,110 C420,160 390,320 350,420 Z" fill="url(#cauliLeaf)"/>
+    <path d="M300,540 C220,530 180,470 170,410 C210,430 250,450 300,450 C350,450 390,430 430,410 C420,470 380,530 300,540 Z" fill="#1B5E20"/>
+
+    <!-- Central Cauliflower Curd Dome -->
+    <ellipse cx="300" cy="300" rx="170" ry="155" fill="url(#curdGrad)"/>
+
+    <!-- Florets texture clusters -->
+    <g fill="#F9FBE7" stroke="#DCEDC8" stroke-width="2">
+      <circle cx="300" cy="240" r="38"/>
+      <circle cx="240" cy="270" r="34"/>
+      <circle cx="360" cy="270" r="34"/>
+      <circle cx="205" cy="330" r="30"/>
+      <circle cx="395" cy="330" r="30"/>
+      <circle cx="260" cy="345" r="35"/>
+      <circle cx="340" cy="345" r="35"/>
+      <circle cx="300" cy="360" r="32"/>
+      <circle cx="300" cy="300" r="36"/>
+      <circle cx="250" cy="210" r="28"/>
+      <circle cx="350" cy="210" r="28"/>
+      <circle cx="300" cy="180" r="26"/>
+    </g>
+
+    <!-- Leaf Vein Accents on surrounding leaves -->
+    <path d="M150,110 Q190,260 270,470" stroke="#C8E6C9" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M450,110 Q410,260 330,470" stroke="#C8E6C9" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Morning Dew Drops -->
+    <circle cx="305" cy="225" r="5" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="345" cy="285" r="6" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="225" cy="320" r="5" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+</svg>
